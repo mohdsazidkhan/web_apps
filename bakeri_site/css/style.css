@@ -734,7 +734,7 @@ input, select {
     top: -35%;
   }
   .main_header{
-    background: linear-gradient(to left, rgba(79, 151, 245, 0.5), rgba(201, 77, 247, 0.5));
+    background: linear-gradient(to left, rgba(79, 151, 245, 0.8), rgba(201, 77, 247, 0.8));
     padding-top: 10px;
     box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
   }
@@ -852,7 +852,7 @@ input, select {
     display: inline-block;
   }
   .main_header{
-    background: linear-gradient(to left, rgba(79, 151, 245, 0.5), rgba(201, 77, 247, 0.5));
+    background: linear-gradient(to left, rgba(79, 151, 245, 0.8), rgba(201, 77, 247, 0.8));
     padding-top: 10px;
     box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
   }
