@@ -345,7 +345,7 @@ input, select {
   left: 0;
   right: 0;
   top: 0;
-  background: linear-gradient(to left, rgba(79, 151, 245, 0.5), rgba(201, 77, 247, 0.5));
+  background: linear-gradient(to left, rgba(79, 151, 245, 1), rgba(201, 77, 247, 1));
   display: block;
   padding-top: 10px;
   z-index: 9;
