@@ -815,11 +815,13 @@ input, select {
   .our_team_section .our_team_container .team_container .our_team_cont .team_row .heading_team.right_text .team_name {
     margin-top: 10px;
   }
-  .right_cont_menu{
+  .nav.main_menu{
     display: none;
-  }
-  .right_cont_menu.in{
-    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
   }
 
 }
