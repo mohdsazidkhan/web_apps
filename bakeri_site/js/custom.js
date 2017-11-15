@@ -33,7 +33,7 @@ $(document).ready(function(){
     });
 
     $(".btn_navbar").click(function(e){
-	  $('.nav.main_menu').slideToggle();
+	  $('.main_menu_top').slideToggle();
 	})
 
 	

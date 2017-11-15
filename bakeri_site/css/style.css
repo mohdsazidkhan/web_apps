@@ -781,10 +781,10 @@ input, select {
     width: 100%;
     transition:all ease 0.35s;
   }
-  .right_cont_menu .nav.pull-right.main_menu{
-  width: 100%;
+  .right_cont_menu.top_menu .nav.pull-right.main_menu{
+    width: 100%;
   }
-  .right_cont_menu .nav.pull-right.main_menu li{
+  .right_cont_menu.top_menu .nav.pull-right.main_menu li{
     display: block;
   }
   .willing_cont{
@@ -819,13 +819,21 @@ input, select {
   .our_team_section .our_team_container .team_container .our_team_cont .team_row .heading_team.right_text .team_name {
     margin-top: 10px;
   }
-  .nav.main_menu{
+  .right_cont_menu.top_menu .nav.main_menu{
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
     right: 0;
     box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+  }
+  .main_menu_bottom{
+    display: none;
+  }
+  .footer_container .navbar.mt_10{
+    margin-top: 0px;
+    padding-bottom: 0px;
+    min-height: 10px;
   }
 
 }
