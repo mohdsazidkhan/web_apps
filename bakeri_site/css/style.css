@@ -732,7 +732,13 @@ input, select {
 .right_cont_menu.top_menu{
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
 }
-
+.team_inner_content{
+  max-width: 340px;
+}
+.solution_inner_content{
+  max-width: 410px;
+}
+    max-width: 410px;
 /*Css less file Merged ends here*/
 
 
@@ -768,7 +774,7 @@ input, select {
   .header_section{
     padding-top: 0px;
   }
-  
+
   .our_details_section .our_details_container .inner_details_cont .nav.nav-tabs li a {
     font-size: 13px;
     padding: 10px;
@@ -946,6 +952,7 @@ input, select {
   .solution_section .solution_container .solution_inner.solution_row .container_solution .solution_text {
     font-size: 14px;
     letter-spacing: 1px;
+    line-height: 18px;
   }
   .solution_section .solution_container .solution_inner.solution_row .container_solution .heading_solution {
     font-size: 24px;
@@ -953,6 +960,7 @@ input, select {
   }
   .right_cont_menu .nav.pull-right.main_menu{
      width: 100%;
+     display: none;
   }
   .right_cont_menu .nav.pull-right.main_menu li{
     display: block;
@@ -994,7 +1002,12 @@ input, select {
   }
   .our_team_section .our_team_container .team_container .our_team_cont .team_row .text_team{
   margin-bottom: 10px;
+  font-size: 15px;
   }
+  .our_team_section .our_team_container .team_container .our_team_desc {
+    font-size: 15px;
+    line-height: 24px;
+}
   .our_team_section .our_team_container .team_container .our_team_cont .team_row .heading_team{
     margin-top: 3px;
   }

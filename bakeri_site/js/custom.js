@@ -25,7 +25,7 @@ $(document).ready(function(){
     }
     });
 
-    $(".btn_navbar").click(function(e){
+    $(".btn_navbar").click(function(){
 	  $('.main_menu_top').slideToggle();
 	})
 
