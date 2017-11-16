@@ -729,6 +729,9 @@ input, select {
 }
 
 /*Css less file Merged ends here*/
+
+
+/*Media Responsive Css Start*/
 @media only screen and (max-width: 991px){
   .main_image{
     width: 580px;
@@ -797,7 +800,7 @@ input, select {
     left: 15px;
     height: 3px;
     background: #4d98f7;
-    width: 90%;
+    width: 5%;
     top: 35px;
    }
    .our_team_section .our_team_container .team_container .our_team_cont .team_row .inner_container .team_name {
@@ -923,12 +926,13 @@ input, select {
   .btn_navbar{
     display: block;
     margin: 5px 15px;
-    font-size: 28px;
+    font-size: 24px;
     color: #fff !important;
     cursor: pointer;
   }
   .navbar .brand{
     margin-left: 15px;
+    font-size: 24px;
   }
   .right_cont_menu{
     width: 100%;
@@ -961,7 +965,7 @@ input, select {
     left: 15px;
     height: 3px;
     background: #4d98f7;
-    width: 90%;
+    width: 7%;
     top: 35px;
    }
    .our_team_section .our_team_container .team_container .our_team_cont .team_row .inner_container .team_name {
@@ -1023,6 +1027,14 @@ input, select {
 .our_team_section .our_team_container .team_container .our_team_cont .team_row .heading_team{
     margin-top: 3px;
   }
+}
+
+@media screen and (min-width: 1600px){
+.solution_section .solution_container .ogaan_mobile_cont {
+    position: absolute;
+    bottom: -84px;
+    right: 60px;
+}
 }
 
 
