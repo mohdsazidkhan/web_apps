@@ -738,7 +738,7 @@ input, select {
 .solution_inner_content{
   max-width: 410px;
 }
-    max-width: 410px;
+  
 /*Css less file Merged ends here*/
 
 
@@ -848,6 +848,9 @@ input, select {
     margin-top: 0px;
     padding-bottom: 0px;
     min-height: 10px;
+  }
+  .main_header .navbar {
+      border: 0px;
   }
 
 }
