@@ -757,10 +757,10 @@ input, select {
     font-size: 13px;
   }
   .main_front_section .main_cont .inner_container .main_heading_top {
-    font-size: 30px;
+    font-size: 50px;
   }
   .main_front_section .main_cont .inner_container .desc_cont {
-    max-width: 100%;
+    max-width: 50%;
     line-height: 18px;
     font-size: 14px;
     letter-spacing: 0.5px;
