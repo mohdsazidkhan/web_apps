@@ -364,7 +364,7 @@ input, select {
 /*CSS converted from less file */
 
 .main_front_section .main_cont .inner_container .main_heading_top {
-  font-size: 50px;
+  font-size: 80px;
   font-family: 'din_bold';
   text-align: center;
   color: #fff;
@@ -376,10 +376,11 @@ input, select {
   text-align: center;
   margin: auto;
   color: #fff;
-  font-size: 20px;
-  letter-spacing: 0.3px;
+  font-size: 22px;
+  letter-spacing: 0.5px;
   font-family: 'helv_light';
   margin-bottom: 15px;
+  line-height: 24px;
 }
 .willing_cont {
   position: relative;
@@ -433,15 +434,19 @@ input, select {
   padding-left: 30px;
 }
 .solution_section .solution_container .solution_inner.solution_row .container_solution .heading_solution {
-  font-size: 40px;
+  font-size: 50px;
   font-family: 'din_bold';
   color: #fff;
   line-height: 34px;
   margin-bottom: 18px;
 }
 .solution_section .solution_container .solution_inner.solution_row .container_solution .solution_text {
-  font-family: 'helv_light';
   color: #fff;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-family: 'helv_light';
+  margin-bottom: 15px;
+  line-height: 24px;
 }
 .solution_section .solution_container .solution_inner.solution_row .col-md-7.col-lg-7 {
   padding-right: 0px;
@@ -455,7 +460,7 @@ input, select {
 .solution_section .solution_container .ogaan_mobile_cont {
   position: absolute;
   bottom: -115px;
-  right: 0px;
+  right: 60px;
 }
 .our_details_section {
   margin-top: 150px;
@@ -478,7 +483,7 @@ input, select {
 .our_details_section .our_details_container .inner_details_cont .nav.nav-tabs li a {
   font-family: 'din_bold';
   font-size: 18px;
-  color: #4d98f7;
+  color: #7a7a7a;
   padding: 10px 15px;
   line-height: 12px;
 }
@@ -487,6 +492,7 @@ input, select {
 }
 .our_details_section .our_details_container .inner_details_cont .nav.nav-tabs li.active a {
   border: 0px;
+  color: #4d98f7;
 }
 .our_details_section .our_details_container .inner_details_cont .nav.nav-tabs li.active:after {
   content: "";
@@ -528,13 +534,14 @@ input, select {
   display: block;
 }
 .our_details_section .our_details_container .inner_details_cont .tab-content .outer_row .software_text_cont .software_text {
-  font-family: 'helv_light';
-  color: #fff;
-  letter-spacing: 0.5px;
-  font-size: 16px;
   padding-left: 30px;
-  max-width: 400px;
-  line-height: 22px;
+  max-width: 460px;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-family: 'helv_light';
+  margin-bottom: 15px;
+  line-height: 24px;
 }
 .our_details_section .our_details_container .inner_details_cont .tab-content .outer_row .software_text_cont .icon_rotate {
   /*transform: rotate(90deg);*/
@@ -544,7 +551,7 @@ input, select {
   display: block;
 }
 .our_team_section .our_team_container .team_container {
-  max-width: 750px;
+  max-width: 850px;
   width: 100%;
   margin: auto;
   margin-top: 60px;
@@ -552,16 +559,16 @@ input, select {
 .our_team_section .our_team_container .team_container .title_our_team {
   color: #4d98f7;
   font-family: 'din_bold';
-  font-size: 45px;
+  font-size: 60px;
 }
 .our_team_section .our_team_container .team_container .our_team_desc {
   color: #767676;
-  font-family: 'helv_light';
-  letter-spacing: 0.5px;
-  font-size: 15px;
-  line-height: 20px;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-family: 'helv_light';
+  line-height: 30px;
 }
 .our_team_section .our_team_container .team_container .our_team_cont {
   margin-bottom: 45px;
@@ -577,7 +584,7 @@ input, select {
   text-align: right;
 }
 .our_team_section .our_team_container .team_container .our_team_cont .team_row .heading_team.right_text .team_name {
-  margin-top: 118px;
+  margin-top: 135px;
 }
 .our_team_section .our_team_container .team_container .our_team_cont .team_row .heading_team.right_text .team_name:after {
   right: 24px;
@@ -585,13 +592,11 @@ input, select {
   height: 104px;
 }
 .our_team_section .our_team_container .team_container .our_team_cont .team_row .text_team {
-  
     color: #767676;
-    /* text-align: justify; */
     font-family: 'helv_light';
     letter-spacing: 0.6px;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 24px;
 }
 .our_team_section .our_team_container .team_container .our_team_cont .team_row .inner_container {
   min-height: 323px;
@@ -604,18 +609,18 @@ input, select {
   color: #4d98f7;
 }
 .our_team_section .our_team_container .team_container .our_team_cont .team_row .inner_container .team_name {
-  margin-top: 150px;
+  margin-top: 160px;
 }
 .our_team_section .our_team_container .team_container .our_team_cont .team_row .inner_container .team_name .name {
   font-family: din_bold;
   letter-spacing: 0.5px;
-  font-size: 20px;
+  font-size: 24px;
   color: #4d98f7;
 }
 .our_team_section .our_team_container .team_container .our_team_cont .team_row .inner_container .team_name .designation {
   font-family: din_bold;
   letter-spacing: 0.5px;
-  font-size: 14px;
+  font-size: 18px;
   color: #000;
   margin-top: 5px;
   margin-bottom: 15px;
@@ -679,7 +684,7 @@ input, select {
 }
 .footer .footer_container .inner_container_footer .heading_footer {
   font-family: 'din_bold';
-  font-size: 35px;
+  font-size: 42px;
   color: #fff;
   margin-bottom: 30px;
 }
@@ -687,7 +692,7 @@ input, select {
   display: block;
 }
 .footer .footer_container .inner_container_footer .touch_text {
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'helv_light';
   letter-spacing: 0.5px;
   color: #fff;
@@ -711,7 +716,7 @@ input, select {
 .copyright {
   color: #fff;
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   font-family: 'helv_light';
 }
 .pb_50 {
